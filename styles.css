@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.header {
+    background-color: #004c6d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.header img {
+    max-width: 150px;
+    height: auto;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #003e5b;
+}
+
+.nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.nav a:hover {
+    background-color: #005577;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.intro img {
+    max-width: 50%;
+    height: auto;
+    align-self: center;
+}
+
+.intro-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.specs {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.specs h2 {
+    border-bottom: 2px solid #004c6d;
+    padding-bottom: 10px;
+}
+
+.specs-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.specs-table th, .specs-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.specs-table th {
+    background-color: #004c6d;
+    color: white;
+}
+
+.footer {
+    background-color: #004c6d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
